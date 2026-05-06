@@ -123,7 +123,10 @@ let alunos = [
     }
 ]
 for (let i = 0; i < alunos.length; i++) {
-    divListaAluno.innerHTML += `<li>${alunos[i].nome}, ${alunos[i].idade} anos</li`
+    divListaAluno.innerHTML += `
+        <li>${alunos[i].nome}, ${alunos[i].idade} anos</li
+        
+    `
     
 }
 
